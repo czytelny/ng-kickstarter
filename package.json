@@ -1,0 +1,16 @@
+{
+    "name": "ng-kickstart",
+    "version": "1.0.0",
+    "homepage": "http://czytelnyblog.wordpress.com/",
+    "license": "MIT",
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-contrib-jshint": "^0.10.0",
+        "grunt-karma": "latest",
+        "grunt-contrib-jasmine": "latest",
+        "karma-jasmine": "~0.2",
+        "karma-phantomjs-launcher": "latest",
+        "phantomjs": "latest",
+        "grunt-contrib-less": "latest"
+    }
+}

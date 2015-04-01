@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ng-kickstart</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/vendor/angular.min.js"></script>
+    <script src="js/vendor/angular-resource.min.js"></script>
+    <script src="js/vendor/angular-route.min.js"></script>
+    <script src="js/app/main.js"></script>
+</head>
+<body ng-app="kickstarter">
+
+<div class="row container-full ">
+    <div class="col-12" ng-controller="MainController">
+        <h1>ng-kickstarter</h1>
+        <p> Hello world! </p>
+        <h3>MainController</h3>
+        <p>{{messages.hello}}</p>
+    </div>
+</div>
+
+
+</body>
+</html>
